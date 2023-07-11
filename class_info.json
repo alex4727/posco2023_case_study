@@ -1,0 +1,42 @@
+{
+    "airfield": {
+        "class_id": 0,
+        "num_images": 1000
+    },
+    "aquarium": {
+        "class_id": 1,
+        "num_images": 555
+    },
+    "baseball_field": {
+        "class_id": 2,
+        "num_images": 308
+    },
+    "basketball_court-indoor": {
+        "class_id": 3,
+        "num_images": 170
+    },
+    "fire_station": {
+        "class_id": 4,
+        "num_images": 94
+    },
+    "food_court": {
+        "class_id": 5,
+        "num_images": 52
+    },
+    "highway": {
+        "class_id": 6,
+        "num_images": 29
+    },
+    "restaurant_kitchen": {
+        "class_id": 7,
+        "num_images": 16
+    },
+    "ski_resort": {
+        "class_id": 8,
+        "num_images": 9
+    },
+    "water_park": {
+        "class_id": 9,
+        "num_images": 5
+    }
+}
