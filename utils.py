@@ -160,7 +160,6 @@ def save_ckpt(epoch, model, per_class_results, run_name):
         'state_dict': model.state_dict(),
         'per_class_results': per_class_results
     }
-    import os
     os.makedirs("checkpoints/", exist_ok=True)
     torch.save(states, os.path.join(f"checkpoints/{run_name}.pth"))
 
