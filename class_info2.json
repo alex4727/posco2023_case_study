@@ -1,0 +1,82 @@
+{
+    "bakery-shop": {
+        "class_id": 0,
+        "num_images": 1000
+    },
+    "basement": {
+        "class_id": 1,
+        "num_images": 756
+    },
+    "bazaar-indoor": {
+        "class_id": 2,
+        "num_images": 572
+    },
+    "bedchamber": {
+        "class_id": 3,
+        "num_images": 433
+    },
+    "chalet": {
+        "class_id": 4,
+        "num_images": 327
+    },
+    "farm": {
+        "class_id": 5,
+        "num_images": 248
+    },
+    "hangar-outdoor": {
+        "class_id": 6,
+        "num_images": 187
+    },
+    "igloo": {
+        "class_id": 7,
+        "num_images": 141
+    },
+    "lawn": {
+        "class_id": 8,
+        "num_images": 107
+    },
+    "library-outdoor": {
+        "class_id": 9,
+        "num_images": 81
+    },
+    "lighthouse": {
+        "class_id": 10,
+        "num_images": 61
+    },
+    "lock_chamber": {
+        "class_id": 11,
+        "num_images": 46
+    },
+    "martial_arts_gym": {
+        "class_id": 12,
+        "num_images": 35
+    },
+    "moat-water": {
+        "class_id": 13,
+        "num_images": 26
+    },
+    "pagoda": {
+        "class_id": 14,
+        "num_images": 20
+    },
+    "railroad_track": {
+        "class_id": 15,
+        "num_images": 15
+    },
+    "residential_neighborhood": {
+        "class_id": 16,
+        "num_images": 11
+    },
+    "temple-asia": {
+        "class_id": 17,
+        "num_images": 8
+    },
+    "train_interior": {
+        "class_id": 18,
+        "num_images": 6
+    },
+    "youth_hostel": {
+        "class_id": 19,
+        "num_images": 5
+    }
+}
