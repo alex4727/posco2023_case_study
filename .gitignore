@@ -1,4 +1,6 @@
-wandb/
+wandb/*
+posco_data/*
+checkpoints/*
 __pycache__/
 *.pth
 

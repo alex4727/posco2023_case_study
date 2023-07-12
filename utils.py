@@ -160,10 +160,12 @@ def save_ckpt(epoch, model, per_class_results, run_name):
         'state_dict': model.state_dict(),
         'per_class_results': per_class_results
     }
-    torch.save(states, os.path.join(f"{run_name}.pth"))
+    import os
+    os.makedirs("checkpoints/", exist_ok=True)
+    torch.save(states, os.path.join(f"checkpoints/{run_name}.pth"))
 
 def load_ckpt(model, run_name):
     print(f"Loading checkpoint {run_name}")
-    saved = torch.load(f"{run_name}.pth", map_location="cpu")
+    saved = torch.load(f"checkpoints/{run_name}.pth", map_location="cpu")
     model.load_state_dict(saved["state_dict"])
     return model
